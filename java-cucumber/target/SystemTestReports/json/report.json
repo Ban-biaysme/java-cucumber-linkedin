@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Customer Bill Amount Calculation",
+        "description": "",
+        "id": "final-bill-calculation;customer-bill-amount-calculation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 720800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have a Customer",
+            "match": {
+              "location": "ScenarioOutlineSteps.i_have_a_Customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 222700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters initial bill amount as 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 35
+                }
+              ],
+              "location": "ScenarioOutlineSteps.user_enters_initial_bill_amount_as(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Sales Tax Rate is 10 Percent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 18
+                }
+              ],
+              "location": "ScenarioOutlineSteps.sales_Tax_Rate_is_Percent(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2953400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "final bill amount calculate is 110",
+            "match": {
+              "arguments": [
+                {
+                  "val": "110",
+                  "offset": 31
+                }
+              ],
+              "location": "ScenarioOutlineSteps.final_bill_amount_calculate_is(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ScenarioOutlineExample"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Customer Bill Amount Calculation",
+        "description": "",
+        "id": "final-bill-calculation;customer-bill-amount-calculation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have a Customer",
+            "match": {
+              "location": "ScenarioOutlineSteps.i_have_a_Customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters initial bill amount as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "ScenarioOutlineSteps.user_enters_initial_bill_amount_as(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Sales Tax Rate is 8 Percent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 18
+                }
+              ],
+              "location": "ScenarioOutlineSteps.sales_Tax_Rate_is_Percent(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "final bill amount calculate is 216",
+            "match": {
+              "arguments": [
+                {
+                  "val": "216",
+                  "offset": 31
+                }
+              ],
+              "location": "ScenarioOutlineSteps.final_bill_amount_calculate_is(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ScenarioOutlineExample"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Customer Bill Amount Calculation",
+        "description": "",
+        "id": "final-bill-calculation;customer-bill-amount-calculation;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 51800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have a Customer",
+            "match": {
+              "location": "ScenarioOutlineSteps.i_have_a_Customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters initial bill amount as 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 35
+                }
+              ],
+              "location": "ScenarioOutlineSteps.user_enters_initial_bill_amount_as(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Sales Tax Rate is 1.55 Percent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1.55",
+                  "offset": 18
+                }
+              ],
+              "location": "ScenarioOutlineSteps.sales_Tax_Rate_is_Percent(Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8675135000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "final bill amount calculate is 101.55",
+            "match": {
+              "arguments": [
+                {
+                  "val": "101.55",
+                  "offset": 31
+                }
+              ],
+              "location": "ScenarioOutlineSteps.final_bill_amount_calculate_is(Double)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ScenarioOutlineExample"
+          }
+        ]
+      }
+    ],
+    "name": "Final Bill Calculation",
+    "description": "",
+    "id": "final-bill-calculation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/cucumbercourse/features/ScenarioOutlineExample.feature",
+    "tags": []
+  }
+]

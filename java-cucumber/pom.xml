@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>javaBrains</groupId>
+	<artifactId>java-cucumber</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<description>Project on BDD cucumber</description>
+
+	<name>java-cucumber</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<junit.version>4.12</junit.version>
+		<cucumber.version>4.2.5</cucumber.version>
+		<maven.compiler.version>3.3</maven.compiler.version>
+		<cucumber.compiler.source>1.7</cucumber.compiler.source>
+		<cucumber.compiler.target>1.7</cucumber.compiler.target>
+
+	</properties>
+
+<!--  below two dependencies for using cucumber jar files in maven project -->
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+	
+
+		 <dependency>
+	        <groupId>org.seleniumhq.selenium</groupId>
+	        <artifactId>selenium-java</artifactId>
+	        <version>3.141.59</version>
+	    </dependency>
+	  
+	  	<!-- add dependency for web driver configuration -->
+	  <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+		    <groupId>io.github.bonigarcia</groupId>
+		    <artifactId>webdrivermanager</artifactId>
+		    <version>4.4.3</version>
+		</dependency>
+		
+	</dependencies>
+
+</project>
